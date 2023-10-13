@@ -1,0 +1,108 @@
+
+  a{
+    color: #fff;
+    text-decoration: none;
+    font-size:15px;
+    transition: color 0.5s;
+   /* border:2px solid black;*/
+   /* background-color:lightpink;*/
+  }
+  a:hover{
+    opacity: 1;
+    color: rgb(133, 182, 212);
+    text-decoration: underline;
+
+  }
+
+header {
+    background-color: #444343;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.contenedor{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoMD img{
+    height:  30 px;
+}
+
+.bloque input{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Esto alinea los elementos a la derecha */
+    flex-grow: 1; 
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left:0;
+    padding-right: 0;
+    font-weight: bold;
+
+}
+h1{
+    color: #fff;
+    font-size: 45px;
+
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+
+
+
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contenedor input {
+    padding: 10px 40px 10px 10px;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    background-image: url('./images/buscar.JPG');
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    
+}
+
+.contenedor input::placeholder {
+    color: #999; /* Cambia el color del texto de marcador de posición */
+    opacity: 0.7; /* Cambia la opacidad del texto de marcador de posición */
+    font-size: 14px; /* Cambia el tamaño del texto de marcador de posición */
+}
+.contenedor button {
+    background-color: rgb(99, 174, 218);
+    width: 100px;
+    height: 40px; /* Ajusta la altura del botón si es necesario */
+    border: 0;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
