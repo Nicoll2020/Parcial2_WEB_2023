@@ -38,7 +38,7 @@ header {
 .bloque input{
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Esto alinea los elementos a la derecha */
+    justify-content: flex-end; 
     flex-grow: 1; 
     padding: 5px 10px;
     background-color: #fff;
@@ -88,14 +88,14 @@ button:hover{
 }
 
 .contenedor input::placeholder {
-    color: #999; /* Cambia el color del texto de marcador de posición */
-    opacity: 0.7; /* Cambia la opacidad del texto de marcador de posición */
-    font-size: 14px; /* Cambia el tamaño del texto de marcador de posición */
+    color: #999; 
+    opacity: 0.7; 
+    font-size: 14px; 
 }
 .contenedor button {
     background-color: rgb(99, 174, 218);
     width: 100px;
-    height: 40px; /* Ajusta la altura del botón si es necesario */
+    height: 40px; 
     border: 0;
     border-radius: 5px 5px 5px 5px;
     font-size: 20px;
